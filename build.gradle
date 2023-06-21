@@ -38,7 +38,6 @@ dependencies {
     "shadowLink"("com.alibaba.fastjson2:fastjson2")
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
-    compileOnly 'com.alibaba.fastjson2:fastjson2:2.0.14'
 
 
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
