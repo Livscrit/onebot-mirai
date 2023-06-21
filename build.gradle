@@ -34,15 +34,16 @@ dependencies {
     "shadowLink"("org.java-websocket:Java-WebSocket")
     implementation('cn.evole.bot:OneBot-SDK:0.2.5')
     "shadowLink"("cn.evole.bot:OneBot-SDK")
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.34'
+    "shadowLink"("com.alibaba.fastjson2:fastjson2")
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
-    compileOnly 'com.alibaba.fastjson2:fastjson2:2.0.34'
+    compileOnly 'com.alibaba.fastjson2:fastjson2:2.0.14'
 
 
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.java-websocket:Java-WebSocket:1.5.3'
-    annotationProcessor 'com.alibaba.fastjson2:fastjson2:2.0.34'
-    compile 'com.alibaba:fastjson:2.0.34'
+    annotationProcessor 'com.alibaba.fastjson2:fastjson2:2.0.14'
 
 
 }
